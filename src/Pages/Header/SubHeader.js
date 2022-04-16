@@ -1,10 +1,11 @@
 import React from 'react';
+import CustomLink from './CustomLink/CustomLink';
 
 const SubHeader = () => {
     return (
-        <div>
-            <h1>SUb header</h1>
-        </div>
+        <nav>
+          
+        </nav>
     );
 };
 

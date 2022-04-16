@@ -12,8 +12,8 @@ const MainHeader = () => {
                     <Navbar.Brand as={Link} to="/home"><img className='header-logo' src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link href="#features">Login</Nav.Link>
-                        <Nav.Link href="#pricing">Sign In</Nav.Link>                      
+                        <Nav.Link className='link-nav text-dark' as={Link} to='/login'>Login</Nav.Link>
+                        <Nav.Link as={Link} className='signin-nav text-light' to="/signin">Sign In</Nav.Link>                      
                        
                     </Navbar.Collapse>
                 </Container>

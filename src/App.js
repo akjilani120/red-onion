@@ -15,11 +15,12 @@ function App() {
      <MainHeader></MainHeader>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/breackfast' element={<BreackFast></BreackFast>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/breakfast' element={<BreackFast></BreackFast>}></Route>
         <Route path='/lunch' element={<Lunch></Lunch>}></Route>
         <Route path='/dinner' element={<Dinner></Dinner>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/register' element={<SignIn></SignIn>}></Route>
+        <Route path='/signin' element={<SignIn></SignIn>}></Route>
         </Routes>
     </div>
   );
